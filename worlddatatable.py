@@ -159,4 +159,5 @@ def update_x_timeseries(hoverData, yaxis_column_name, axis_type):
 
 
 if __name__ == '__main__':
+    # host 0.0.0.0 means any port/ip address. 127.0.0.* means local host. Port specified here is the one that you need to publish to when creating the container.
     app.run_server(host='0.0.0.0', debug=True, port=8050)
